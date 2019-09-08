@@ -1,0 +1,27 @@
+{
+  "name": "@markjameshoward/pikatest5",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-web"
+      ]
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pika/cli": "^0.2.0",
+    "@pika/pack": "^0.5.0",
+    "@pika/plugin-build-web": "^0.6.0",
+    "@pika/plugin-standard-pkg": "^0.6.0",
+    "np": "^5.0.3"
+  }
+}
