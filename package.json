@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "version": "npx @pika/pack"
+  },
   "@pika/pack": {
     "pipeline": [
       [
